@@ -1,0 +1,155 @@
+﻿@font-face {
+    font-family: msyh;
+    src: local("微软雅黑");
+}
+
+.up-container {
+    position:relative;
+    width: 100%;
+    height: 40%;
+    font-size:100px;
+    background-color: #673AB7;
+}
+
+.bottom-container {
+    width: 100%;
+    height: calc(60% - 5px);
+    background-color: rgb(240,240,240);
+    position: relative;
+}
+
+.up-container .avater {
+    position:absolute;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 30vw;
+    left: 50%;
+    top: 50%;
+    margin-left: -15vw;
+    margin-top: -15vw;
+    background-image: url(http://randoms.me/media/img/1419081910.jpg);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: center center;
+}
+
+.bottom-container .play {
+    position: absolute;
+    background-color: #F44336;
+    display: block;
+    width: 26vw;
+    height: 26vw;
+    border-radius: 26vw;
+    left: 50%;
+    top: 50%;
+    margin-left: -13vw;
+    margin-top: -26vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 26vw;
+}
+
+.bottom-container .play .fa-play {
+    font-size: 15vw;
+    color: white;
+    display: inline-block;
+    margin-top: 6vw;
+    margin-left: 3vw;
+}
+
+.bottom-container .play .fa-pause {
+    font-size: 15vw;
+    color: white;
+    display: inline-block;
+    margin-top: 6vw;
+}
+
+.player-progress {
+    width: 100%;
+    background-color: white;
+}
+
+.player-progress .inner {
+    width: 0;
+    background-color: #F44336;
+    height: 5px;
+    transition: 0.4s all linear;
+}
+
+.bottom-container .download {
+    position: absolute;
+    display: block;
+    width: 14vw;
+    height: 14vw;
+    background-color: #F44336;
+    border-radius: 14vw;
+    top: 50%;
+    left: 50%;
+    margin-left: -34vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14vw;
+}
+
+.bottom-container .download .fa-download {
+    font-size: 8vw;
+    color: white;
+    margin-top: 3vw;
+}
+
+.bottom-container .next {
+    position: absolute;
+    display: block;
+    width: 14vw;
+    height: 14vw;
+    background-color: #F44336;
+    border-radius: 7vw;
+    left: 50%;
+    top: 50%;
+    margin-left: 20vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14vw;
+}
+
+.bottom-container .next .fa-step-forward {
+    color: white;
+    font-size: 8vw;
+    margin-top: 3vw;
+}
+
+.bottom-container .upload {
+    position: absolute;
+    display: block;
+    width: 14vw;
+    height: 14vw;
+    background-color: #F44336;
+    border-radius: 7vw;
+    top: 50%;
+    left: 50%;
+    margin-left: -7vw;
+    margin-top: 10vw;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 14vw;
+}
+
+.bottom-container .upload .fa-upload {
+    color: white;
+    font-size: 8vw;
+    margin-top: 3vw;
+}
+
+.bottom-container a {
+    box-shadow: 1px 1px 2px 1px gray;
+}
+
+.bottom-container .title {
+    text-align: center;
+    font-size: 2em;
+    color: #F44336;
+    font-family: msyh;
+    padding-top: 5vw;
+    text-shadow: 1px 1px 1px gray;
+}
